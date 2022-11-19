@@ -1,0 +1,44 @@
+.circle {
+    fill:red;
+    stroke-width:5px;
+    stroke:green;
+}
+
+.rectangle {
+    fill:blue;
+    stroke-width:5px;
+    stroke:yellow;
+}
+
+.square {
+    fill:greenyellow;
+    stroke:green;
+    stroke-width:5px;
+}
+
+.ellipse {
+    fill:whitesmoke;
+    stroke: aqua;
+    stroke-width:5px;
+}
+
+.ellipse2 {
+    fill:steelblue;
+    stroke: rosybrown;
+    stroke-width:10px;
+    transition: 1s;
+
+}
+
+.ellipse2:hover {
+    fill:black;
+    stroke-width:5px;
+}
+
+.ellipse2:active {
+    stroke: aqua;
+    stroke-width:5px;
+    transform: rotate(90deg);
+}
+
+
